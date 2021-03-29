@@ -5,7 +5,9 @@ import Menu from './components/Menu'
 import Footer from './components/Footer'
 // pages
 import Home from './pages/Home'
-import About from './pages/About'
+import Privacy from './pages/Privacy'
+import Unsubscribe from './pages/Unsubscribe'
+import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 
 const App = () => {
@@ -16,7 +18,9 @@ const App = () => {
         <Container>
           <Switch>
             <Route path='/' component={Home} exact />
-            <Route path='/about' component={About} />
+            <Route path='/privacy' component={Privacy} />
+            <Route path='/unsubscribe' component={Unsubscribe} />
+            <Route path='/contact' component={Contact} />
             <Route component={NotFound} />
           </Switch>
         </Container>

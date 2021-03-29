@@ -1,9 +1,9 @@
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 
-const About = () => {
+const Unsubscribe = () => {
   // page content
-  const pageTitle = 'About'
+  const pageTitle = 'Unsubscribe'
   const pageDescription = 'welcome to react bootstrap template'
 
   return (
@@ -14,4 +14,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Unsubscribe
