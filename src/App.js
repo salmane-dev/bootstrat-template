@@ -11,20 +11,16 @@ import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 
 const App = () => {
-  return (
+  return ( 
     <Router>
-      <Menu />
-      <main>
-        <Container>
+      <Menu /> 
           <Switch>
-            <Route path='/' component={Home} exact />
+            <Route  path='/' component={Home} exact />
             <Route path='/privacy' component={Privacy} />
             <Route path='/unsubscribe' component={Unsubscribe} />
             <Route path='/contact' component={Contact} />
             <Route component={NotFound} />
-          </Switch>
-        </Container>
-      </main>
+          </Switch>  
       <Footer />
     </Router>
   )

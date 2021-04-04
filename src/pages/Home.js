@@ -1,16 +1,27 @@
 import Header from '../components/Header'
-import Meta from '../components/Meta'
+import Body from '../components/Body'
+const data = require('../data.json'); 
 
-const Home = () => {
+const Home = ({ pageTitle, pageDescription }) => {
   // page content
-  const pageTitle = 'Home'
-  const pageDescription = 'welcome to react bootstrap template'
+
+  const home_screen_bg = {
+    background: 'url(' + data.header.home_screen_bg + ') ',
+    backgroundSize:' cover ',
+  }
 
   return (
-    <div>
-      <Meta title={pageTitle}/>
-      <Header head={pageTitle} description={pageDescription} />
+    <div> 
+        <div className="bg-light home-screen" style={home_screen_bg}> 
+          <Header pageTitle={pageTitle} pageDescription={pageDescription} />
+        </div>
+        <Body pageTitle={pageTitle} pageDescription={pageDescription} />
     </div>
+
+
+
+
+
   )
 }
 

@@ -8,8 +8,7 @@ const Unsubscribe = () => {
 
   return (
     <div>
-      <Meta title={pageTitle}/>
-      <Header head={pageTitle} description={pageDescription} />
+      <Meta title={pageTitle}/> 
     </div>
   )
 }

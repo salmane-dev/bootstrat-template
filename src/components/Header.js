@@ -1,13 +1,28 @@
 import { Container } from 'react-bootstrap'
+const data = require('../data.json'); 
+ 
 
-const Header = ({ head, description }) => {
-  return (
-    <Container>
-      <div className='starter-template text-center mt-5'>
-        <h1>{head} Page</h1>
-        <p className='lead text-capitalize'>{description}</p>
-      </div>
-    </Container>
+const Header = () => { 
+   
+
+  return ( 
+      <div className='starter-template text-center w-100 h-100 pt-5'>
+        <header className="masthead pt-5">
+        <div className=" text-center pt-5 text-light">
+          <h1 className="h1 display-2 bold ">{data.header.appType}</h1> 
+          <p className="h4 p-3">{data.header.tagLine}</p> 
+          <form>
+            <div className="input-group header_input">
+              <input type="email" className="form-control" size="50" placeholder="Email Address" required></input>
+              <div className="input-group-btn">
+                <button type="button" className="btn btn-danger">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        </header>
+
+      </div> 
   )
 }
 
