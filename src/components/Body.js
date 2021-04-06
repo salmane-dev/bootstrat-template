@@ -18,7 +18,7 @@ const Body = ({ img1,img2 }) => {
                       Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <button type="button" className="btn btn-outline-dark fs-4">Join us now</button>
+                    <a href="/contact" className="btn btn-outline-dark fs-4">Join us now</a>
                   </div>
                   <div className="col-sm-4">
                     <span className="glyphicon glyphicon-signal logo">

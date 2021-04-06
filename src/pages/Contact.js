@@ -1,18 +1,24 @@
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 
+const data = require('../data.json'); 
+
 const Contact = () => {
   // page content
   const pageTitle = 'Contact Us'
   const pageDescription = 'Thank you for visiting Viewpointclub.com.'
 
-  return (
-    <div>
-      <Meta title={pageTitle}/>
-      <Header head={pageTitle} description={pageDescription} />
+  const home_screen_bg = {
+    background: 'url(' + data.contact.img1 + ') ',
+    backgroundSize: 'cover',
+  }
 
-      <div className="mw-75 w-75 mx-auto">
-        <h3 className="">
+  return (
+    <div className="home-screen" style={home_screen_bg}>
+      <Meta title={pageTitle}/>
+       
+      <div className="mw-75 w-75 mx-auto text-white">
+        <h3 className="text-white">
         To receive our exclusive e-mail offers from Viewpointclub.com name companies,
          please complete the form bellow.
         </h3>

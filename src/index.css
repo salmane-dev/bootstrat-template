@@ -29,7 +29,7 @@ html,body { height:100%; }
 }
 
 .home-screen{
-  height: 92vh;
+  min-height: 92vh;
 }
 
 .text-justify{
