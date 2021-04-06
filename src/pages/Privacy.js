@@ -1,14 +1,13 @@
-import Header from '../components/Header'
 import Meta from '../components/Meta'
 
 const Privacy = () => {
   // page content
-  const pageTitle = 'Privacy'
-  const pageDescription = 'Our pravacy agreement'
+  const title = 'Privacy'
+  //const subtitle = 'Our pravacy agreement'
 
   return (
     <div>
-       <Meta title={pageTitle}/> 
+       <Meta title={title}/> 
           <div className=" w-75 my-4 mx-auto home_screen h-75" >
               <div className="mp-4 text-justify" >
                   <div className="m-auto text-center p-5">
@@ -62,7 +61,7 @@ const Privacy = () => {
 
                                 (b) Web Beacons.
 
-                                A web beacon is programming code that can be used to display an image on a web page (by using an &lt; img src="x"> programming function -- see http://truste.org for more information), but can also be used to transfer an individual's unique user identification (often in the form of a cookie) to a database and associate the individual with previously acquired information about an individual in a database. This allows Viewpointclub.com to track certain websites an individual visits online. Web beacons are used to determine products or services an individual may be interested in, and to track online behavioral habits for marketing purposes. For example, Viewpointclub.commight place, with the consent of a Third Party website, a web beacon on the Third Party's website where cosmetics are sold. When Jane, an individual listed in Viewpointclub.com database, visits the cosmetic website, Viewpointclub.com receives notice by means of the web beacon that Jane visited the cosmetics site, and Viewpointclub.com would then update Jane's profile with the information that Jane is interested in cosmetics. Viewpointclub.com may thereafter present offers of cosmetic related products and services to Jane. In addition to using web beacons on web pages, Viewpointclub.com also uses web beacons in email messages sent to individuals listed in Viewpointclub.comdatabase.
+                                A web beacon is programming code that can be used to display an image on a web page (by using an &lt; img src="x" &#62; programming function -- see http://truste.org for more information), but can also be used to transfer an individual's unique user identification (often in the form of a cookie) to a database and associate the individual with previously acquired information about an individual in a database. This allows Viewpointclub.com to track certain websites an individual visits online. Web beacons are used to determine products or services an individual may be interested in, and to track online behavioral habits for marketing purposes. For example, Viewpointclub.commight place, with the consent of a Third Party website, a web beacon on the Third Party's website where cosmetics are sold. When Jane, an individual listed in Viewpointclub.com database, visits the cosmetic website, Viewpointclub.com receives notice by means of the web beacon that Jane visited the cosmetics site, and Viewpointclub.com would then update Jane's profile with the information that Jane is interested in cosmetics. Viewpointclub.com may thereafter present offers of cosmetic related products and services to Jane. In addition to using web beacons on web pages, Viewpointclub.com also uses web beacons in email messages sent to individuals listed in Viewpointclub.comdatabase.
 
                                 (c) New Technology.
 
