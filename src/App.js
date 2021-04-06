@@ -1,4 +1,3 @@
-import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // page components
 import Menu from './components/Menu'
