@@ -1,21 +1,21 @@
 main {
     min-height: 80vh;
 }
+html,body { height:100%; }
 
 .navbar-brand{
     font-size: 1.6rem;
 }
 
-.navbar .menu_item:hover { 
-    transform:scale(1.08);
+.navbar .menu_item:hover {    
     transition: 0.4s;
-    color: beige;
+    color: rgb(209, 209, 209);
 }
 .navbar a{
-    transition: 0.5s;
+    transition: 0.5s; 
 }
 .text-white:hover{
-    color: beige!important;
+  color: rgb(209, 209, 209);
 }
  
 .header_input{
@@ -29,8 +29,22 @@ main {
 }
 
 .home-screen{
-  height: 92vh;
+  height: 90vh;
 }
+
+.text-justify{
+  text-align: justify;
+}
+
+.grph2{
+  align-self: center;
+  line-height: 1.8em;
+}
+.about h4, h3, p {
+  line-height: 1.8em;
+}
+
+
 
 h2 {
   font-size: 24px;

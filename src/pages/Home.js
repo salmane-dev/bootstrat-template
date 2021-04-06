@@ -6,7 +6,7 @@ const Home = ({ pageTitle, pageDescription }) => {
   // page content
 
   const home_screen_bg = {
-    background: 'url(' + data.header.home_screen_bg + ') ',
+    background: 'url(' + data.header.img1 + ') ',
     backgroundSize:' cover ',
   }
 

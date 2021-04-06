@@ -1,7 +1,15 @@
 {
   "header":{
-    "appType": "Welcome To Our Website !",
-    "tagLine": "IT'S NICE TO MEET YOU ",
-    "home_screen_bg":"https://images.unsplash.com/photo-1574607383363-5b5f1747b37b"
-   }
+    "title": "Welcome To Our Website !",
+    "subtitle": "IT'S NICE TO MEET YOU ",
+    "website": "Website.com",
+    "img1":"https://images.unsplash.com/photo-1574607383363-5b5f1747b37b"
+   },
+  "body":{
+    "img1": "https://images.unsplash.com/photo-1614350292382-c448d0110dfa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "img2":"https://images.unsplash.com/photo-1614350292382-c448d0110dfa?"
+   },
+   "unsubscribe":{
+     "img1": "https://images.unsplash.com/photo-1614350292382-c448d0110dfa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
 }
