@@ -4,40 +4,43 @@ import Meta from '../components/Meta'
 const data = require('../data.json'); 
 
 const Contact = () => {
-  // page content
-  const pageTitle = 'Contact Us'
-  const pageDescription = 'Thank you for visiting Viewpointclub.com.'
-
+  
   const home_screen_bg = {
-    background: 'url(' + data.contact.img1 + ') ',
+    background: 'url(' + data.contact.img1 + ')',
     backgroundSize: 'cover',
+    minHeight:'84vh'
   }
 
   return (
-    <div className="home-screen" style={home_screen_bg}>
-      <Meta title={pageTitle}/>
-       
-      <div className="mw-75 w-75 mx-auto text-white">
-        <h3 className="text-white">
-        To receive our exclusive e-mail offers from Viewpointclub.com name companies,
-         please complete the form bellow.
-        </h3>
-        <form className="m-6 mw-50 w-50 mx-auto">
-            <div className="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
-              <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div className="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"></input>
-            </div>
-            <div className="form-check">
-              <input type="checkbox" className="form-check-input" id="exampleCheck1"></input>
-              <label className="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
+    <div className="home-screen p-5 bg-cover" style={home_screen_bg}>
+      <Meta title={data.contact.pagetitle}/>
+      <div className="mw-75 mx-auto text-white">
+          <div className="container ms-auto w-100 ">
+              <div className="unsubscribe p-2 m-auto  ">
+                  <h1 className="fs-1 font-weight-bold fs-bold text-light pt-5 pb-3">{data.contact.pagetitle}:</h1>
+                  <p className=" fs-3 font-weight-bold fs-bold text-white">
+                      {data.contact.pagedescription}
+                  </p>
+              </div>
+          </div>
+
+        <div className="form-div m-6 mw-50 mx-auto">
+            <form className="">
+                <div className="form-group form-control-lg">
+                  <label for="exampleInputfirstname">First Name:</label>
+                  <input type="text" className="form-control" id="exampleInputfirstname" autoFocus ></input>
+                </div>
+                <div className="form-group form-control-lg">
+                  <label for="exampleInputlastname fs-2">Last Name:</label>
+                  <input type="text" className="form-control" id="exampleInputlastname"></input>
+                </div>
+                <div className="form-group form-control-lg">
+                  <label for="exampleInputEmail">Email:</label>
+                  <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" Required></input>
+                </div>
+                <button type="submit" className=" btn btn-outline-light fs-4 px-5 m-3">Submit</button>
+            </form>
+        </div>
       </div>
 
     </div>

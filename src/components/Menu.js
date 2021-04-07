@@ -4,7 +4,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const Menu = () => {
 
-  const menu_item = "px-3 h5 text-white menu_item"
+  const menu_item = "px-3 h5 text-white menu_item m-auto"
   return (
     <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
       <Container>

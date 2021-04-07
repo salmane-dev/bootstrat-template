@@ -8,27 +8,29 @@ const Unsubscribe = () => {
   const pageDescription = 'If at any time you\'d like to unsubscribe from our mailing list, please enter your email address below.'
 
   const home_screen_bg = {
-    background: 'url(' + data.unsubscribe.img1 + ') ',
-    backgroundSize:' cover ',
+    background: 'url(' + data.unsubscribe.img1+')',
+    backgroundSize:'cover',
+    minHeight:'84vh'
   }
 
+
   return (
-    <div className="home-screen" style={home_screen_bg}>
+    <div className="home-screen p-5 bg-cover" style={home_screen_bg}>
       <Meta title={pageTitle}/> 
-      <div className="container m-auto">
-          <div className="unsubscribe p-5">
-              <h2 className="fs-2">Unsubscribe :</h2>
-              <p>
+      <div className="container ms-auto w-100 pt-5">
+          <div className="unsubscribe p-2 m-auto  ">
+              <h1 className="fs-1 font-weight-bold fs-bold text-light pt-5">Unsubscribe :</h1>
+              <p className=" fs-3 font-weight-bold fs-bold text-white">
                   {pageDescription}
               </p>
           </div>
 
           <form>
-              <div className="input-group header_input">
-                  <input type="email" className="form-control" size="50" placeholder="Email Address" required></input> 
+              <div className="input-group header_input"> 
+                  <input type="email" className="form-control p-3" size="60" placeholder="Email Address" required autoFocus ></input> 
               </div>
                   <div className="input-group-btn text-center">
-                      <button type="button" className="btn btn-danger px-5">Unsubscribe</button>
+                      <button type="button" className="btn btn-danger p-3 px-5">Unsubscribe</button>
                   </div>
           </form>
 
