@@ -25,7 +25,7 @@ const Contact = () => {
           </div>
 
         <div className="form-div m-6 mw-50 mx-auto">
-            <form className="">
+            <form >
                 <div className="form-group form-control-lg">
                   <label for="exampleInputfirstname">First Name:</label>
                   <input type="text" className="form-control" id="exampleInputfirstname" autoFocus ></input>

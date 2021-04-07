@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import $ from 'jquery'; 
 // page components
 import Menu from './components/Menu'
 import Footer from './components/Footer'
@@ -7,7 +8,20 @@ import Home from './pages/Home'
 import Privacy from './pages/Privacy'
 import Unsubscribe from './pages/Unsubscribe'
 import Contact from './pages/Contact'
-import NotFound from './pages/NotFound'
+import NotFound from './pages/NotFound' 
+
+ 
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 500) {
+      $(this).addClass(" fade-in-up "); 
+    }
+  });
+});
+
+ 
 
 const App = () => {
   return ( 
@@ -22,7 +36,12 @@ const App = () => {
           </Switch>  
       <Footer />
     </Router>
+
+    
   )
+   
+
+
 }
 
 export default App

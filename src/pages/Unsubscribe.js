@@ -27,10 +27,10 @@ const Unsubscribe = () => {
 
           <form>
               <div className="input-group header_input"> 
-                  <input type="email" className="form-control p-3" size="60" placeholder="Email Address" required autoFocus ></input> 
+                  <input type="email" className="form-control p-2" size="60" placeholder="Email Address" required autoFocus ></input> 
               </div>
                   <div className="input-group-btn text-center">
-                      <button type="button" className="btn btn-danger p-3 px-5">Unsubscribe</button>
+                      <button type="submit" className="btn btn-danger p-2 px-5">Unsubscribe</button>
                   </div>
           </form>
 
