@@ -28,7 +28,7 @@ const Privacy = () => {
       <tbody>
         
         <tr>
-          <td height="5" background="images/FONDO.gif"><img height="1" src="images/espacio.gif" width="1"></img></td>
+          <td height="5" >  </td>
         </tr>
       </tbody>
     </table></td></tr>
