@@ -18,10 +18,6 @@ const Home = ({ pageTitle, pageDescription }) => {
         <Body pageTitle={pageTitle} pageDescription={pageDescription} />
     </div>
 
-
-
-
-
   )
 }
 

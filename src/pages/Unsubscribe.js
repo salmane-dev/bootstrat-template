@@ -26,12 +26,15 @@ const Unsubscribe = () => {
           </div>
 
           <form>
-              <div className="input-group header_input"> 
-                  <input type="email" className="form-control p-2" size="60" placeholder="Email Address" required autoFocus ></input> 
-              </div>
-                  <div className="input-group-btn text-center">
-                      <button type="submit" className="btn btn-danger p-2 px-5">Unsubscribe</button>
+            <div className="fade-in-up">
+                  <div className="input-group header_input"> 
+                      <input type="email" className="form-control p-2" size="60" placeholder="Email Address" required autoFocus ></input> 
                   </div>
+                  <div className="input-group-btn text-center">
+                          <button type="submit" className="btn btn-danger p-2 px-5">Unsubscribe</button>
+                  </div>
+            </div>
+              
           </form>
 
       </div>

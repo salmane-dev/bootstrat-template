@@ -8,7 +8,6 @@ const Footer = () => {
       <footer className='text-center myfooter py-3'>
         Copyright &copy; {year}  <span>{data.header.website}</span>
       </footer>
-
       
       <style dangerouslySetInnerHTML={{__html: `
           .myfooter{
