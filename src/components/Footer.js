@@ -2,7 +2,6 @@ const data = require('../data.json');
 
 
 const Footer = () => {
-  const year = new Date().getFullYear()
   return (
     <div>
       <footer className='text-center myfooter py-3'>
