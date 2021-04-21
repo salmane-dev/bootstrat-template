@@ -8,6 +8,7 @@ const Home = ({ pageTitle, pageDescription }) => {
   const home_screen_bg = {
     background: 'url(' + data.header.img1 + ') ',
     backgroundSize: 'cover',
+    backgroundAttachment: 'fixed'
   }
 
   return (

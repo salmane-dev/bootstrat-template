@@ -3,7 +3,7 @@ const data = require('../data.json');
 const Header = () => { 
 
   return ( 
-      <div className='  text-center w-100 h-100 pt-5'>
+      <div className='text-center w-100 h-100 pt-5'>
         <header className="  pt-5">
             <div className=" text-center pt-5 text-light">
               <h1 className="h1 display-2 bold">{data.header.title}</h1> 

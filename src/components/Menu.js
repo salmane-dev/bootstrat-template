@@ -20,7 +20,7 @@ const Menu = () => {
         <LinkContainer to='/'>
           <Navbar.Brand className="h3">Template</Navbar.Brand>
         </LinkContainer>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
+        <Navbar.Toggle aria-controls='basic-navbar-nav' className="bg-dark"/>
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto' style={nav_item_style}>
             <LinkContainer to='/'>

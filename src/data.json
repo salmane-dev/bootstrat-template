@@ -6,7 +6,7 @@
     "img1":"https://images.unsplash.com/photo-1516486392848-8b67ef89f113",
     "menu":{
       "background":"white",
-      "textColor":"black"
+      "textColor":"#000"
     }
    },
   "body":{
@@ -27,7 +27,8 @@
     }    ,
   "footer":{ 
       "background":"white",
-      "textColor":"black"
+      "textColor":"black",
+      "text":"Copyright © 2021 "
     }
 
 }
