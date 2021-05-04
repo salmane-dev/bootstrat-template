@@ -8,7 +8,7 @@ const Body = ({ img1,img2 }) => {
               <div id="about" className="container-fluid">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2>{data.body.parag1} </h2> 
+                    <h2>{data.body.title1} </h2> 
                     <h4> 
                         You've found {data.header.website} {data.body.parag1} 
                     </h4>  
@@ -30,7 +30,7 @@ const Body = ({ img1,img2 }) => {
                     </span>
                   </div>
                   <div className="col-sm-8 grph2">
-                    <h2>Our Values</h2> 
+                    <h2>{data.body.title2}</h2> 
                     <h4> 
                           {data.body.parag2}  
                     </h4> 
