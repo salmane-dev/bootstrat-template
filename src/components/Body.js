@@ -8,7 +8,7 @@ const Body = ({ img1,img2 }) => {
               <div id="about" className="container-fluid">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2>About Company Page</h2> 
+                    <h2>{data.body.parag1} </h2> 
                     <h4> 
                         You've found {data.header.website} {data.body.parag1} 
                     </h4>  
